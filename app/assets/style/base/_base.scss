@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  // outline: solid 1px;
+}
+
+*::selection {
+  background: white;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  user-select: none;
+}
+
+body {
+  background: #0b0d19;
+  color: $primary;
+  font-size: 1.125rem;
+  font-family: "Bellefair", serif;
+  height: 100%;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Bellefair", serif;
+}
+h4,
+h5,
+h6 {
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+p {
+  font-family: "Barlow", sans-serif;
+  line-height: 1.77778;
+  font-size: 1.125rem;
+  @include pad {
+    line-height: 1.75;
+  }
+  @include mobile {
+    line-height: 1.66667;
+  }
+}
+
+img {
+  user-select: none;
+}

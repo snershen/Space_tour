@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title><%- title %></title>
+    <link rel="stylesheet" href="./assets/style/all.css" />
+  </head>
+
+  <body>
+    <header
+      class="bg-linear px-6 px-sm-13 px-lg-0 w-100 py-6 py-sm-0 animate__animated animate__slideInDown"
+    >
+      <div
+        class="container-fluid container-lg d-flex justify-content-between align-items-center"
+      >
+        <a href="index.html"
+          ><img src="./assets/images/shared/logo.svg" alt="LOGO" class="logo"
+        /></a>
+        <nav>
+          <ul class="nav font-condensed text-white">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link" data-navLink="Home"
+                ><span
+                  class="fw-bold me-3 d-inline-block d-sm-none d-lg-inline-block"
+                  >00</span
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="destination.html"
+                class="nav-link"
+                data-navLink="Destination"
+                ><span
+                  class="fw-bold me-3 d-sm-none d-md-none d-lg-inline-block"
+                  >01</span
+                >Destination</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="crew.html" class="nav-link" data-navLink="Crew"
+                ><span
+                  class="fw-bold me-3 d-inline-block d-sm-none d-md-none d-lg-inline-block"
+                  >02</span
+                >Crew</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="technology.html"
+                class="nav-link"
+                data-navLink="Technology"
+                ><span
+                  class="fw-bold me-3 d-inline-block d-sm-none d-md-none d-lg-inline-block"
+                  >03</span
+                >Technology</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <a href="#" class="ham-menu"></a>
+      </div>
+    </header>
+
+    <%- contents %>
+
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+  </body>
+</html>

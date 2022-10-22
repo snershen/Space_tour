@@ -1,0 +1,158 @@
+header {
+  position: fixed;
+  top: 40px;
+  z-index: 10;
+  @media (max-width: 992px) {
+    top: 0;
+  }
+  .logo {
+    position: relative;
+    left: -60px;
+    @media (max-width: 1240px) {
+      position: static;
+    }
+    @include mobile {
+      @include size(40px);
+    }
+  }
+}
+
+.ham-menu {
+  display: none;
+  @include size(24px, 21px);
+  background: center/cover url(../images/shared/icon-hamburger.svg);
+  @media (max-width: 576px) {
+    display: inline-block;
+    //   position: absolute;
+    z-index: 10;
+  }
+  &--close {
+    background: center/cover url(../images/shared/icon-close.svg);
+  }
+}
+
+.nav {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  @media (max-width: 576px) {
+    display: none;
+    padding-top: 113px;
+    width: 467px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    flex-direction: column;
+    @include size(254px, 100vh);
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(30px);
+  }
+  &::after {
+    content: "";
+    display: block;
+    width: 473px;
+    height: 1px;
+    position: absolute;
+    bottom: 50%;
+    left: -95%;
+    opacity: 0.5;
+    background: #fff;
+    @media (max-width: 1240px) {
+      content: none;
+    }
+  }
+
+  &-item:not(:last-child) {
+    margin-right: 48px;
+    @include pad {
+      margin-right: 36px;
+    }
+    @media (max-width: 767px) {
+      margin-right: 32px;
+    }
+    @media (max-width: 576px) {
+      margin-right: 0;
+      margin-bottom: 18px;
+    }
+  }
+}
+
+.nav-link {
+  display: inline-block;
+  padding: 38px 0;
+  position: relative;
+  letter-spacing: 2.7px;
+  @include pad {
+    padding: 32px 0;
+    font-size: 0.875rem;
+  }
+  @media (max-width: 767px) {
+    padding-top: 38px;
+    padding-bottom: 38px;
+    width: 100%;
+  }
+  @media (max-width: 576px) {
+    padding-left: 32px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 1rem;
+  }
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    background: #fff;
+    height: 3px;
+    width: 0px;
+    transition: width 0.5s;
+    @include pad {
+      transition: none;
+    }
+  }
+  &:hover::after {
+    width: 100%;
+    @media (max-width: 576px) {
+      right: 0px;
+      width: 4px;
+      height: 100%;
+    }
+  }
+  &--active {
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      bottom: 0;
+      background: #fff;
+      height: 3px;
+      width: 100%;
+      @media (max-width: 576px) {
+        right: 0px;
+        width: 4px;
+        height: 100%;
+      }
+    }
+  }
+}
+
+.bg-linear {
+  background: linear-gradient(
+    -90deg,
+    rgba(255, 255, 255, 0.04) 57%,
+    transparent 57%
+  );
+  backdrop-filter: blur(5px);
+  @include pad {
+    background: linear-gradient(
+      -90deg,
+      rgba(255, 255, 255, 0.04) 58%,
+      transparent 58%
+    );
+    backdrop-filter: blur(81px);
+  }
+  @media (max-width: 576px) {
+    background: none;
+    backdrop-filter: none;
+  }
+}

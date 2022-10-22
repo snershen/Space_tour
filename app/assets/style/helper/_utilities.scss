@@ -1,0 +1,25 @@
+.font-barlow {
+  font-family: "Barlow", sans-serif;
+}
+
+.font-condensed {
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.font-bellefair {
+  font-family: "Bellefair", serif;
+}
+
+@media (max-width: 768px) {
+  .border-bottom-other {
+    border-bottom: solid 1px #606582 !important;
+  }
+}
+
+.text-nowrap {
+  white-space: nowrap;
+}
+
+.page-bottom {
+  padding-bottom: 12.5vh !important;
+}

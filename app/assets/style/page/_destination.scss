@@ -1,0 +1,11 @@
+.destination-img-item {
+  @include mobile {
+    height: 170px;
+  }
+}
+.destination-img {
+  padding-bottom: 50px;
+  @media (max-width: 992px) {
+    padding-bottom: 119px;
+  }
+}
