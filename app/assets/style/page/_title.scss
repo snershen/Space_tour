@@ -25,6 +25,16 @@
   }
 }
 
+.destinationTitle {
+  font-size: 6.25rem;
+  @include pad {
+    font-size: 5rem;
+  }
+  @include mobile {
+    font-size: 3.5rem;
+  }
+}
+
 .pageTitle {
   font-size: 1.75rem;
   letter-spacing: 4.72px;

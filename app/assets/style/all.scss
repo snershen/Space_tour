@@ -3,18 +3,17 @@
 //font-family: 'Barlow Condensed', sans-serif;
 //font-family: 'Bellefair', serif;
 
-@import "../../../node_modules/swiper/swiper.scss";
-@import "../../../node_modules/swiper/modules/pagination/pagination.scss";
 @import "../../../node_modules/bootstrap/scss/functions";
 @import "helper/variables";
 @import "../../../node_modules/bootstrap/scss/variables";
 @import "../../../node_modules/bootstrap/scss/bootstrap";
-@import "helper/mixin";
-@import "../style/vendor/swiper.scss";
+@import "../../../node_modules/swiper/swiper.scss";
+@import "../../../node_modules/swiper/modules/pagination/pagination.scss";
 @import "../.././../node_modules/animate.css/animate.scss";
+@import "helper/mixin";
+@import "vendor/swiper.scss";
 @import "base/base";
 @import "helper/utilities";
-@import "helper/component";
 @import "layout/navbar";
 @import "layout/background";
 @import "page/title";

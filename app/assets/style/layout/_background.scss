@@ -4,8 +4,15 @@
 }
 
 .bg-index {
+  animation: bigger 20s alternate forwards;
+  @keyframes bigger {
+    to {
+      background: top left/cover url(../images/home/background-home-desktop.jpg);
+    }
+  }
   @include pad {
     background: center/cover url(../images/home/background-home-tablet.jpg);
+    animation: none;
   }
   @include mobile {
     background: center/cover url(../images/home/background-home-mobile.jpg);

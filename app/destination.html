@@ -1,8 +1,8 @@
 ---
-title: Space
+title: Destination
 layout: ./app/layout.ejs
 engine: ejs
-current: index
+current: page
 ---
 
 <main class="bg bg-destination min-vh-100" data-page="Destination">
@@ -25,7 +25,7 @@ current: index
       <section class="swiper-wrapper">
         <div class="swiper-slide d-flex align-items-end">
           <div
-            class="row flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center align-items-lg-end"
+            class="row flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center align-items-lg-end flex-h-column align-items-h-center"
           >
             <picture
               class="destination-img col-8 col-md-9 col-lg-6 d-flex justify-content-center mb-md-0 px-md-0"
@@ -42,39 +42,43 @@ current: index
               />
             </picture>
             <div
-              class="col-12 col-md-9 col-lg-5 ps-lg-10 d-flex flex-column justify-content-lg-between"
+              class="col-12 col-md-9 col-lg-5 ps-lg-10 d-flex flex-column justify-content-lg-between col-h-12"
             >
-              <article
-                class="pt-lg-19 destination-article text-center text-lg-start pb-16 mb-8 border-bottom border-white"
-              >
-                <h1
-                  class="planetTitle mb-4 mb-md-6 text-md-center text-lg-start text-white text-nowrap font-bellefair text-uppercase"
+              <div class="destination-article">
+                <article
+                  class="pt-lg-19 text-center text-lg-start pb-16 mb-8 border-bottom border-white"
                 >
-                  MOON
-                </h1>
-                <p class="fs-6 fs-lg-5">
-                  See our planet as you’ve never seen it before. A perfect
-                  relaxing trip away to help regain perspective and come back
-                  refreshed. While you’re there, take in some history by
-                  visiting the Luna 2 and Apollo 11 landing sites.
-                </p>
-              </article>
-              <div
-                class="planet-info d-flex text-uppercase text-center text-lg-start flex-column flex-lg-row align-items-center align-items-lg-start"
-              >
-                <div class="planet-info-item w-50">
-                  <h3 class="font-condensed fs-2 mb-10 mb-lg-0 font-bellefair">
-                    <span class="d-block fs-8 mb-2">AVG. DISTANCE</span
-                    ><span class="plant-count">384,400</span>
-                    km
-                  </h3>
-                </div>
-                <div class="planet-info-item w-50">
-                  <h3 class="font-condensed fs-2 font-bellefair">
-                    <span class="d-block fs-8 mb-2">Est. travel time</span
-                    ><span class="plant-count">3</span>
-                    days
-                  </h3>
+                  <h1
+                    class="planetTitle mb-4 mb-md-6 text-md-center text-lg-start text-white text-nowrap font-bellefair text-uppercase"
+                  >
+                    MOON
+                  </h1>
+                  <p class="fs-6 fs-lg-5">
+                    See our planet as you’ve never seen it before. A perfect
+                    relaxing trip away to help regain perspective and come back
+                    refreshed. While you’re there, take in some history by
+                    visiting the Luna 2 and Apollo 11 landing sites.
+                  </p>
+                </article>
+                <div
+                  class="planet-info d-flex text-uppercase text-center text-lg-start flex-column flex-lg-row align-items-center align-items-lg-start text-white"
+                >
+                  <div class="planet-info-item w-50">
+                    <h3
+                      class="font-condensed fs-2 mb-10 mb-lg-0 font-bellefair"
+                    >
+                      <span class="d-block fs-8 mb-2 text-primary"
+                        >AVG. DISTANCE</span
+                      >384,400 km
+                    </h3>
+                  </div>
+                  <div class="planet-info-item w-50">
+                    <h3 class="font-condensed fs-2 font-bellefair">
+                      <span class="d-block fs-8 mb-2 text-primary"
+                        >Est. travel time</span
+                      >3 days
+                    </h3>
+                  </div>
                 </div>
               </div>
             </div>
@@ -82,7 +86,7 @@ current: index
         </div>
         <div class="swiper-slide d-flex align-items-end">
           <div
-            class="row flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center align-items-lg-end"
+            class="row flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center align-items-lg-end flex-h-column align-items-h-center"
           >
             <picture
               class="destination-img col-8 col-md-9 col-lg-6 d-flex justify-content-center mb-md-0 px-md-0"
@@ -99,36 +103,42 @@ current: index
               />
             </picture>
             <div
-              class="col-12 col-md-9 col-lg-5 ps-lg-10 d-flex flex-column justify-content-lg-between"
+              class="col-12 col-md-9 col-lg-5 ps-lg-10 d-flex flex-column justify-content-lg-between col-h-12"
             >
-              <article
-                class="pt-lg-19 destination-article text-center text-lg-start pb-16 mb-8 border-bottom border-white"
-              >
-                <h1
-                  class="planetTitle mb-4 mb-md-6 text-md-center text-lg-start text-white text-nowrap font-bellefair text-uppercase"
+              <div class="destination-article">
+                <article
+                  class="pt-lg-19 text-center text-lg-start pb-16 mb-8 border-bottom border-white"
                 >
-                  MARS
-                </h1>
-                <p class="fs-6 fs-lg-5">
-                  Don’t forget to pack your hiking boots. You’ll need them to
-                  tackle Olympus Mons, the tallest planetary mountain in our
-                  solar system. It’s two and a half times the size of Everest!
-                </p>
-              </article>
-              <div
-                class="planet-info d-flex text-uppercase text-center text-lg-start flex-column flex-lg-row align-items-center align-items-lg-start"
-              >
-                <div class="planet-info-item w-50">
-                  <h3 class="font-condensed fs-2 mb-10 mb-lg-0 font-bellefair">
-                    <span class="d-block fs-8 mb-2">AVG. DISTANCE</span
-                    ><span class="plant-count">225</span> MIL. km
-                  </h3>
-                </div>
-                <div class="planet-info-item w-50">
-                  <h3 class="font-condensed fs-2 font-bellefair">
-                    <span class="d-block fs-8 mb-2">Est. travel time</span>9
-                    months
-                  </h3>
+                  <h1
+                    class="planetTitle mb-4 mb-md-6 text-md-center text-lg-start text-white text-nowrap font-bellefair text-uppercase"
+                  >
+                    MARS
+                  </h1>
+                  <p class="fs-6 fs-lg-5">
+                    Don’t forget to pack your hiking boots. You’ll need them to
+                    tackle Olympus Mons, the tallest planetary mountain in our
+                    solar system. It’s two and a half times the size of Everest!
+                  </p>
+                </article>
+                <div
+                  class="planet-info d-flex text-uppercase text-center text-lg-start flex-column flex-lg-row align-items-center align-items-lg-start text-white"
+                >
+                  <div class="planet-info-item w-50">
+                    <h3
+                      class="font-condensed fs-2 mb-10 mb-lg-0 font-bellefair"
+                    >
+                      <span class="d-block fs-8 mb-2 text-primary"
+                        >AVG. DISTANCE</span
+                      >225 MIL. km
+                    </h3>
+                  </div>
+                  <div class="planet-info-item w-50">
+                    <h3 class="font-condensed fs-2 font-bellefair">
+                      <span class="d-block fs-8 mb-2 text-primary"
+                        >Est. travel time</span
+                      >9 months
+                    </h3>
+                  </div>
                 </div>
               </div>
             </div>
@@ -136,7 +146,7 @@ current: index
         </div>
         <div class="swiper-slide d-flex align-items-end">
           <div
-            class="row flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center align-items-lg-end"
+            class="row flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center align-items-lg-end flex-h-column align-items-h-center"
           >
             <picture
               class="destination-img col-8 col-md-9 col-lg-6 d-flex justify-content-center mb-md-0 px-md-0"
@@ -153,37 +163,43 @@ current: index
               />
             </picture>
             <div
-              class="col-12 col-md-9 col-lg-5 ps-lg-10 d-flex flex-column justify-content-lg-between"
+              class="col-12 col-md-9 col-lg-5 ps-lg-10 d-flex flex-column justify-content-lg-between col-h-12"
             >
-              <article
-                class="pt-lg-19 destination-article text-center text-lg-start pb-16 mb-8 border-bottom border-white"
-              >
-                <h1
-                  class="planetTitle mb-4 mb-md-6 text-md-center text-lg-start text-white text-nowrap font-bellefair text-uppercase"
+              <div class="destination-article">
+                <article
+                  class="pt-lg-19 text-center text-lg-start pb-16 mb-8 border-bottom border-white"
                 >
-                  EUROPA
-                </h1>
-                <p class="fs-6 fs-lg-5">
-                  The smallest of the four Galilean moons orbiting Jupiter,
-                  Europa is a winter lover’s dream. With an icy surface, it’s
-                  perfect for a bit of ice skating, curling, hockey, or simple
-                  relaxation in your snug wintery cabin.
-                </p>
-              </article>
-              <div
-                class="planet-info d-flex text-uppercase text-center text-lg-start flex-column flex-lg-row align-items-center align-items-lg-start"
-              >
-                <div class="planet-info-item w-50">
-                  <h3 class="font-condensed fs-2 mb-10 mb-lg-0 font-bellefair">
-                    <span class="d-block fs-8 mb-2">AVG. DISTANCE</span>628 MIL.
-                    km
-                  </h3>
-                </div>
-                <div class="planet-info-item w-50">
-                  <h3 class="font-condensed fs-2 font-bellefair">
-                    <span class="d-block fs-8 mb-2">Est. travel time</span>3
-                    years
-                  </h3>
+                  <h1
+                    class="planetTitle mb-4 mb-md-6 text-md-center text-lg-start text-white text-nowrap font-bellefair text-uppercase"
+                  >
+                    EUROPA
+                  </h1>
+                  <p class="fs-6 fs-lg-5">
+                    The smallest of the four Galilean moons orbiting Jupiter,
+                    Europa is a winter lover’s dream. With an icy surface, it’s
+                    perfect for a bit of ice skating, curling, hockey, or simple
+                    relaxation in your snug wintery cabin.
+                  </p>
+                </article>
+                <div
+                  class="planet-info d-flex text-uppercase text-center text-lg-start flex-column flex-lg-row align-items-center align-items-lg-start text-white"
+                >
+                  <div class="planet-info-item w-50">
+                    <h3
+                      class="font-condensed fs-2 mb-10 mb-lg-0 font-bellefair"
+                    >
+                      <span class="d-block fs-8 mb-2 text-primary"
+                        >AVG. DISTANCE</span
+                      >628 MIL. km
+                    </h3>
+                  </div>
+                  <div class="planet-info-item w-50">
+                    <h3 class="font-condensed fs-2 font-bellefair">
+                      <span class="d-block fs-8 mb-2 text-primary"
+                        >Est. travel time</span
+                      >3 years
+                    </h3>
+                  </div>
                 </div>
               </div>
             </div>
@@ -191,7 +207,7 @@ current: index
         </div>
         <div class="swiper-slide d-flex align-items-end">
           <div
-            class="row flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center align-items-lg-end"
+            class="row flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center align-items-lg-end flex-h-column align-items-h-center"
           >
             <picture
               class="destination-img col-8 col-md-9 col-lg-6 d-flex justify-content-center mb-md-0 px-md-0"
@@ -208,38 +224,43 @@ current: index
               />
             </picture>
             <div
-              class="col-12 col-md-9 col-lg-5 ps-lg-10 d-flex flex-column justify-content-lg-between"
+              class="col-12 col-md-9 col-lg-5 ps-lg-10 d-flex flex-column justify-content-lg-between col-h-12"
             >
-              <article
-                class="pt-lg-19 destination-article text-center text-lg-start pb-16 mb-8 border-bottom border-white"
-              >
-                <h1
-                  class="planetTitle mb-4 mb-md-6 text-md-center text-lg-start text-white text-nowrap font-bellefair text-uppercase"
+              <div class="destination-article">
+                <article
+                  class="pt-lg-19 text-center text-lg-start pb-16 mb-8 border-bottom border-white"
                 >
-                  TITAN
-                </h1>
-                <p class="fs-6 fs-lg-5">
-                  The only moon known to have a dense atmosphere other than
-                  Earth, Titan is a home away from home (just a few hundred
-                  degrees colder!). As a bonus, you get striking views of the
-                  Rings of Saturn.
-                </p>
-              </article>
-              <div
-                class="planet-info d-flex text-uppercase text-center text-lg-start flex-column flex-lg-row align-items-center align-items-lg-start"
-              >
-                <div class="planet-info-item w-50">
-                  <h3 class="font-condensed fs-2 mb-10 mb-lg-0 font-bellefair">
-                    <span class="d-block fs-8 mb-2">AVG. DISTANCE</span>1.6 BIL.
-                    km
-                  </h3>
-                </div>
-                <div class="planet-info-item w-50">
-                  <h3 class="font-condensed fs-2 font-bellefair">
-                    <span class="d-block fs-8 mb-2">Est. travel time</span
-                    ><span class="plant-count">7</span>
-                    years
-                  </h3>
+                  <h1
+                    class="planetTitle mb-4 mb-md-6 text-md-center text-lg-start text-white text-nowrap font-bellefair text-uppercase"
+                  >
+                    TITAN
+                  </h1>
+                  <p class="fs-6 fs-lg-5">
+                    The only moon known to have a dense atmosphere other than
+                    Earth, Titan is a home away from home (just a few hundred
+                    degrees colder!). As a bonus, you get striking views of the
+                    Rings of Saturn.
+                  </p>
+                </article>
+                <div
+                  class="planet-info d-flex text-uppercase text-center text-lg-start flex-column flex-lg-row align-items-center align-items-lg-start text-white"
+                >
+                  <div class="planet-info-item w-50">
+                    <h3
+                      class="font-condensed fs-2 mb-10 mb-lg-0 font-bellefair"
+                    >
+                      <span class="d-block fs-8 mb-2 text-primary"
+                        >AVG. DISTANCE</span
+                      >1.6 BIL. km
+                    </h3>
+                  </div>
+                  <div class="planet-info-item w-50">
+                    <h3 class="font-condensed fs-2 font-bellefair">
+                      <span class="d-block fs-8 mb-2 text-primary"
+                        >Est. travel time</span
+                      >7 years
+                    </h3>
+                  </div>
                 </div>
               </div>
             </div>

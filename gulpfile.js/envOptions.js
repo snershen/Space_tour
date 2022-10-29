@@ -43,6 +43,7 @@ let envOptions = {
       // `${nodePath}/jquery/dist/jquery.slim.min.js`,
       `${nodePath}/jquery/dist/jquery.min.js`,
       `${nodePath}/swiper/swiper-bundle.min.js`,
+      `${nodePath}/vanilla-tilt/dist/vanilla-tilt.min.js`,
       `${nodePath}/bootstrap/dist/js/bootstrap.bundle.min.js`, // 已包含 popper.js
     ],
     concat: "vendors.js",

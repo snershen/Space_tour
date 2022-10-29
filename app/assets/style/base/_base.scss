@@ -2,7 +2,6 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  // outline: solid 1px;
 }
 
 *::selection {
@@ -48,6 +47,6 @@ p {
   }
 }
 
-img {
-  user-select: none;
-}
+// img {
+//   user-select: none;
+// }

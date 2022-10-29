@@ -26,13 +26,9 @@ var crewSwiper = new Swiper(".crew-swiper", {
     crossFade: true,
   },
   loop: true,
-  speed: 300,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
-  },
-  mousewheel: {
-    invert: false,
   },
 });
 
@@ -42,18 +38,13 @@ var technologySwiper = new Swiper(".technology-swiper", {
   fadeEffect: {
     crossFade: true,
   },
-
   loop: true,
-  speed: 500,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
     renderBullet: function (index, className) {
       return '<span class="' + className + '">' + (index + 1) + "</span>";
     },
-  },
-  mousewheel: {
-    invert: false,
   },
 });
 
@@ -65,15 +56,11 @@ var destination = new Swiper(".destination-swiper", {
     crossFade: true,
   },
   loop: true,
-  // speed: 500,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
     renderBullet: function (index, className) {
       return '<span class="' + className + '">' + planet[index] + "</span>";
     },
-  },
-  mousewheel: {
-    invert: false,
   },
 });

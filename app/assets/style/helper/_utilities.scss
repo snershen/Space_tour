@@ -23,3 +23,36 @@
 .page-bottom {
   padding-bottom: 12.5vh !important;
 }
+
+@media (min-height: 1200px) and (max-width: 1024px) {
+  .flex-h-column {
+    flex-direction: column !important;
+  }
+  .justify-content-h-center {
+    align-items: center !important;
+  }
+  .justify-content-h-between {
+    justify-content: space-between !important;
+  }
+  .align-items-h-center {
+    align-items: center !important;
+  }
+  .text-h-center {
+    text-align: center !important;
+  }
+  .col-h-12 {
+    width: 100%;
+  }
+  .justify-content-h-end {
+    justify-content: flex-end !important;
+  }
+  .mt-h-50 {
+    margin-top: 50px !important;
+  }
+  .mt-h-100 {
+    margin-top: 100px !important;
+  }
+  .p-h-0 {
+    padding: 0 !important;
+  }
+}
