@@ -10,12 +10,6 @@
   font-family: "Bellefair", serif;
 }
 
-@media (max-width: 768px) {
-  .border-bottom-other {
-    border-bottom: solid 1px #606582 !important;
-  }
-}
-
 .text-nowrap {
   white-space: nowrap;
 }
@@ -24,6 +18,13 @@
   padding-bottom: 12.5vh !important;
 }
 
+@media (max-width: 768px) {
+  .border-bottom-other {
+    border-bottom: solid 1px #606582 !important;
+  }
+}
+
+// ipad pro rwd
 @media (min-height: 1200px) and (max-width: 1024px) {
   .flex-h-column {
     flex-direction: column !important;

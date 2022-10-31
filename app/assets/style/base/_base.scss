@@ -1,9 +1,3 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
 *::selection {
   background: white;
   color: black;
@@ -46,7 +40,3 @@ p {
     line-height: 1.66667;
   }
 }
-
-// img {
-//   user-select: none;
-// }

@@ -10,13 +10,13 @@
 .crew-img-item {
   height: 712px;
   width: auto;
-  object-fit: contain !important;
+  object-fit: contain;
   object-position: center bottom;
   @media (max-width: 992px) {
     height: 532px;
   }
   @include mobile {
-    height: 222px !important;
+    height: 222px;
   }
 }
 

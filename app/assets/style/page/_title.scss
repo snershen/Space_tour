@@ -1,6 +1,6 @@
 .indexTitle {
   font-size: 9.375rem;
-  @media (max-width: 576px) {
+  @include mobile {
     font-size: 5rem;
   }
 }
@@ -38,7 +38,6 @@
 .pageTitle {
   font-size: 1.75rem;
   letter-spacing: 4.72px;
-  // position: absolute;
   padding-top: 212px;
   transform: translateY(33px);
   @media (max-width: 992px) {
@@ -52,7 +51,7 @@
     padding-top: 136px;
     padding-bottom: 60px;
   }
-  @media (max-width: 576px) {
+  @include mobile {
     font-size: 1rem;
     letter-spacing: 2.7px;
     padding-top: 88px;
